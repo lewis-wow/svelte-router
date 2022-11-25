@@ -2,7 +2,7 @@
 
 ```svelte
   <script>
-    import { Router, Route, ProtectedRoute, Redirect, link, back, forward, navigate } from './lib/index'
+    import { Router, Route, ProtectedRoute, Redirect, link, back, forward, navigate } from 'svelte-routering'
     
     import Home from './Home.svelte'
     import Profile from './Profile.svelte'
