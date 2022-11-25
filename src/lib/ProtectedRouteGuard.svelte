@@ -10,5 +10,5 @@
 {#if allow}
 	<slot />
 {:else}
-	<Redirect to={fallback} state={{ from: location.pathname }} />
+	<Redirect to={fallback} replace state={{ from: location.pathname }} />
 {/if}
