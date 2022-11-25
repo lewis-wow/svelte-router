@@ -18,7 +18,6 @@
 		"vite": "^3.2.3"
 	},
 	"dependencies": {
-		"svelte-routering": "^0.0.1",
 		"svelte-routing": "^1.6.0"
 	}
 }
